@@ -5,10 +5,12 @@ angular.module('myApp',['ngRoute','myApp.services'])
 		.then(function(data){
 			$scope.hits = data;
 		});
-	$scope.registerHit() = function(){
+
+
+	$scope.registerHit = function(){
 		Hitservice.registerHit()
 			.then(function(data){
 				$scope.hits = data;
-			})
+			});
 	}
-})
+});

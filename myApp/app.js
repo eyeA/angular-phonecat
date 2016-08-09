@@ -8,6 +8,8 @@ var bodyParser = require('body-parser');
 // var routes = require('./routes/index');// p178页删除
 var users = require('./routes/users');
 var hits = require('./routes/hits');
+var routes = require('./routes');
+// 35行 报错是因为这里没有引入！
 
 var app = express();
 
