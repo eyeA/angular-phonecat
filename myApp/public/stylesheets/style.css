@@ -6,3 +6,5 @@ body {
 a {
   color: #00B7FF;
 }
+
+button{padding: 4px;cursor: pointer;}
